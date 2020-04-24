@@ -1,14 +1,14 @@
-"PARKING LOT" 
+# PARKING LOT 
 This is Simple Java Application written in Java 8, junit testing framework and maven build tool.
 
 The application accepts inputs from both command line and interactive shell.
 
-Setup:
+# Setup:
 You can run the application by importing it in any ide like eclipse and intellij
  OR
 by building it's jar using ``` mvn clean install ``` and then using the ``` java -jar jarName.jar ``` command.
 
-Assumptions:
+# Assumptions:
 1)User first will give create Slot command and then will issue other commands.
 Example:
 ```
@@ -36,7 +36,7 @@ slot_number_for_registration_number KA-01-HH-3141
 Not Found
 ```
 
-Running Example :
+# Running Example :
 
 Input:
 create_parking_lot 6
